@@ -40,7 +40,7 @@ const Section_uno = () => {
       <div className={styles.bloqueDer}>
         {width <= 610 ? (
           <img
-            src="/plata_mobil.webp"
+            src="/plata-mobil.webp"
             alt="Compro plata madrid"
             className={styles.madridMobil}
             width={290}
