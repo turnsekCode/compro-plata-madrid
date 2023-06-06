@@ -1787,7 +1787,7 @@ const SectionDos = ({ ciudad  })=>{
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("figure", {
                             children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                src: "/logoOro.png",
+                                src: "/logoPlata.png",
                                 alt: "Logo Plata"
                             })
                         }),

@@ -9,7 +9,7 @@ const SectionDos = ({ ciudad }) => {
       <div className={styles.contendorBloques}>
         <div className={styles.bloqueIzq}>
           <figure>
-            <img src="/logoOro.png" alt="Logo Plata" />
+            <img src="/logoPlata.png" alt="Logo Plata" />
           </figure>
           <div className={styles.contenedorInfo}>
             <h2>Comprar Plata en Madrid</h2>
