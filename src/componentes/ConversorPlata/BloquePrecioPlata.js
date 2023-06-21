@@ -168,9 +168,15 @@ const CalculadoraOro = ({ ciudad }) => {
         <p className={styles.tituloInferior}>TE DAMOS POR TU PLATA</p>
         <p className={styles.precioFinal}>
           {valorInput >= parseFloat(masDePlata * 1000)
-            ? ((valorInput / 1000) * valorSelectSuma).toLocaleString()
-            : ((valorInput / 1000) * valorSelectNormal).toLocaleString()}
-          <span>€</span>
+            ? ((valorInput / 1000) * valorSelectSuma).toLocaleString("es", {
+                style: "currency",
+                currency: "EUR",
+              })
+            : ((valorInput / 1000) * valorSelectNormal).toLocaleString("es", {
+                style: "currency",
+                currency: "EUR",
+              })}
+          <span></span>
         </p>
         <p className={styles.promocion}>
           <span className={styles.linea}>Promoción Online</span>
